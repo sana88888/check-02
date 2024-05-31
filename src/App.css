@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px green solid; */
+  background-image: url(https://cdn.wallpapersafari.com/74/74/QCnqlZ.jpg);
+  background-size: cover;
+}
+
+.player-list {
+  border: 1px black solid;
+  width: 58%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  min-height: 87vh;
+  background-image: url("https://media.istockphoto.com/id/1058444714/fr/photo/r%C3%A9sum%C3%A9-blur-sc%C3%A8ne-skyline-beaut%C3%A9-avec-fond-color%C3%A9-et-brillant-jeu-de-lumi%C3%A8re-pour-la.jpg?s=612x612&w=0&k=20&c=3LqwvbvdDMh8-sZa80vKroL5lWmWYbNmW6EkyWaN_Ek=");
+  background-size: cover;
+}
+
+.player-box {
+  /* border: 1px solid black; */
+  padding: 10px 10px 0 10px;
+  border-radius: 5px;
+  /* height: 250px; */
+  width: 150px;
+  /* margin-top: 8px; */
+  /* margin-right: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.player-img img {
+  object-fit: cover;
+}
+h3 {
+  /* margin-bottom: 30px; */
+  margin: 0;
+  font-size: 19px;
+  font-weight: bold !important;
+  font-family: fantasy;
+  /* border: 1px yellow solid; */
+  /* height: 30px; */
+  width: 170px;
+  text-align: center;
+}
